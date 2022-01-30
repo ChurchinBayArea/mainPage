@@ -31,10 +31,16 @@ body {
 .tab {
     cursor: pointer;
     padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
 .tab.active {
-    background-color: #CCC;
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 .tab:hover {
     background-color: #AAA;
