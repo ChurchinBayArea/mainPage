@@ -20,7 +20,7 @@ body {
 
 .tabs {
     display: flex;
-    width: 300px;
+    width: 600px;
     height: 40px;
     justify-content: space-around;
     list-style-type: none;
